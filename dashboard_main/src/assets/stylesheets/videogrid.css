@@ -1,0 +1,89 @@
+body {
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.grid-container {
+  margin-top: 3%;
+  width: 85%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.grid-item {
+  color: white;
+  background-color: #0d0d0d;
+  border: none;
+  padding: 40px;
+  font-size: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.grid-item:hover {
+  background-color: rgba(0,0,0,0.9);
+  box-shadow: 2px 2px grey;
+  
+}
+
+#Connected {
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+/*HEADER*/
+
+.header a {
+  color: black;
+  text-decoration: none;
+  padding-left: 15px;
+
+}
+
+.header a:hover {
+  color: green;
+}
+
+.header-right {
+  float: right;
+  margin-right: 7.5%;
+  margin-top: 35px;
+
+}
+
+.header-left {
+  float: left;
+  margin-left: 6%;
+  margin-top: 8px;
+
+}
+
+.header img {
+  width: 55px;
+  height: 55px;
+}
+
+.header-left #safecab {
+  color: black;
+  margin-bottom: 10px;
+  font-size: 33px;
+}
+
+.green {
+  color: green;
+  font-weight: 600;
+}
+.fa-play-circle
+{
+  visibility: hidden;
+}
+.a.risk{
+  color:red;
+}
